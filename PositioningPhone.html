@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     :root {
+  --primary-bg: rgba(44,62,80 ,1);
+  --secondary-bg: rgba(0,0,0,0.9);
+  --box-shadow-color-1: gold;
+  --box-shadow-color-2: rgba(149,165,166 ,0.1);
+  --box-shadow-color-3: #ecf0f1;
+  --phone-width: 350px;
+  --phone-height: 700px;
+}   
+body{
+    background-color: var(--secondary-bg);
+}
+
+ .phone{
+    width: var(--phone-width);
+    height: var(--phone-height);
+    background-color: var(--secondary-bg);
+    box-shadow: -2px -2px var(--box-shadow-color-1), 2px 5px var(--box-shadow-color-2);
+    border-radius: 30px;
+ }
+
+ .screen{
+    width: 90%;
+    height: 80%;
+    background-color: var(--primary-bg);
+    position: relative;
+    margin: auto;
+    top: 6%;
+ }
+
+ .mic{
+    width: 60px;
+    height: 10px;
+    background-color: var(--primary-bg);
+    margin: auto;
+    position: relative;
+    top: 3%;    
+    border-radius: 5px;
+ }
+ .camS{
+    background-color: var(--primary-bg);
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: auto;
+    position: relative;
+    top: 2%;
+ }
+ .camM{
+    background-color: var(--primary-bg);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 35%;
+    top: 3%;
+ }
+ .btn{
+
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    box-shadow: 0 -1px  var(--box-shadow-color-3), -1px 1px 1px var(--box-shadow-color-1);
+    margin: auto;
+    position: relative;
+    top: 55px;
+
+ }
+    </style>
+</head>
+<body>
+    <section class="phone">  
+        <div class="camS"></div>    
+        <div class="camM"></div>
+        <div class="mic"></div> 
+        <div class="screen"></div>     
+        <div class="btn"></div>
+    </section>
+</body>
+
+
+    
+</html>
